@@ -1,0 +1,25 @@
+.gallery{
+    padding-top: 70px;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+.box{
+    border:  3px solid #757373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box img{
+    width: 200px;
+    height:200px;
+}
